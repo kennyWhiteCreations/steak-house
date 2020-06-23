@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steak House drinks menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/drinks.css" />
+    <link rel="stylesheet" href="css/drinks_mobile.css" />
+  </head>
+  <body>
+    <nav id="mobile-navbar" class="mobile-navbar navbar-closed">
+      <a href="#" id="close-btn" onclick="closeNav()">
+        <span class="material-icons">
+          close
+        </span>
+      </a>
+      <div class="mobile-menu-links">
+        <a href="index.html">Home</a>
+        <hr />
+        <div class="mobile-subnav">
+          <button class="mobile-subnav-btn">
+            Menu <i class="fa fa-caret-down"></i>
+          </button>
+          <hr />
+          <div class="mobile-subnav-content">
+            <a href="lunch_menu.html">Lunch</a>
+            <hr />
+            <a href="dinner_menu.html">Dinner</a>
+            <hr />
+            <a href="dessert_menu.html">Desserts</a>
+            <hr />
+            <a href="kids_menu.html">Kids</a>
+            <hr />
+            <a href="drinks_menu.html">Drinks</a>
+          </div>
+        </div>
+        <a href="about_us.html">About Us</a>
+        <hr />
+        <a href="contact.html">Contact</a>
+        <hr />
+      </div>
+    </nav>
+    <div class="nav-bg-container">
+      <div class="navbar-container">
+        <a href="#" onclick="openNav()" id="hamburger-link">
+          <span class="material-icons hamburger-menu">
+            menu
+          </span>
+        </a>
+
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <div class="subnav">
+            <button class="subnav-btn">
+              Menu <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content">
+              <a href="lunch_menu.html">Lunch</a>
+              <a href="dinner_menu.html">Dinner</a>
+              <a href="dessert_menu.html">Desserts</a>
+              <a href="kids_menu.html">Kids</a>
+              <a href="drinks_menu.html">Drinks</a>
+            </div>
+          </div>
+          <a href="about_us.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="main-logo" href="index.html"
+          >Steak<br />
+          House</a
+        >
+        <div class="social-media-btns">
+          <a href="https://facebook.com">
+            <img
+              class="facebook-btn"
+              src="images/facebook-edit.svg"
+              alt="facebook logo button"
+            />
+          </a>
+          <a href="https://instagram.com">
+            <img
+              class="instagram-btn"
+              src="images/instagram-edit.svg"
+              alt="instagram logo button"
+            />
+          </a>
+        </div>
+      </div>
+      <h1 class="top-menu-header">Menu</h1>
+    </div>
+    <div class="menu-container">
+      <div class="menu">
+        <div class="menu-heading-group">
+          <h2 class="menu-header">Drinks Menu</h2>
+        </div>
+
+        <h2 class="menu-category">Drinks</h2>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Soda<br />(coke products)</h3>
+            <p class="price">$2.49</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Milk</h3>
+            <p class="price">$3.49</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Coffee
+            </h3>
+            <p class="price">$2.99</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Tea</h3>
+            <p class="price">$2.99</p>
+          </div>
+        </div>
+
+        <h2 class="menu-category">Sparkling Wine</h2>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Moscato D' Asti, Mia Dolcea (Italy)</h3>
+            <p class="price">Glass $9.00/$29.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Prosecco, D.O.C. Ruffino (Italy)</h3>
+            <p class="price">$18.00 1/2 bottle</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Prosecco, D.O.C. Ruffino (Italy)</h3>
+            <p class="price">$18.00 1/2 bottle</p>
+          </div>
+        </div>
+
+        <h2 class="menu-category">White wines</h2>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Riesling, SaintM by Ernest Loosen (Pfalz,Germany)
+            </h3>
+            <p class="price">Glass $8.00/$26.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Pinot Grigo, Clos du Bois (Calif.)</h3>
+            <p class="price">Glass $8.00/$26.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Chardonnay,<br />
+              Rodney Strong (Sonoma, Calif)
+            </h3>
+            <p class="price">Glass $9.00/$29.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Sauvignon Blanc, Dashwood (New Zealand)
+            </h3>
+            <p class="price">$31.00</p>
+          </div>
+        </div>
+
+        <h2 class="menu-category">Red Wines</h2>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Malbec, Kaiken Estate<br />( Mendeza, Argintina)
+            </h3>
+            <p class="price">Glass $8.00/$26.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Pinot Noir, La Crema (Monterey, Calif)
+            </h3>
+            <p class="price">$49.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Merlot , Stag's Leap (Napa, Calif)</h3>
+            <p class="price">$64.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Cabernet Sauvignon,<br />
+              Sterling Vineyards (Napa, Calif)
+            </h3>
+            <p class="price">$62.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Shiraz, Rosemont (Australia)</h3>
+            <p class="price">$26.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Claret, Blend, Williamsburg Winery<br />(Williamsburg, VA)
+            </h3>
+            <p class="price">$36.00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">
+              Zinfandel, Sledgehammer (Sonoma, Calif.)
+            </h3>
+            <p class="price">$34.00</p>
+          </div>
+        </div>
+      </div>
+      <nav class="side-nav-menu">
+        <h2 class="side-menu-heading">Menu</h2>
+        <ul>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="lunch_menu.html">Lunch</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="dinner_menu.html">Dinner</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="dessert_menu.html">Desserts</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="kids_menu.html">Kids</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="drinks_menu.html">Drinks</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <footer id="footer">
+      <div class="follow-us">
+        <div id="footer-social-btns">
+          <a href="https://facebook.com">
+            <img
+              class="facebook-btn"
+              src="images/facebook-edit-footer.svg"
+              alt="facebook logo button"
+            />
+          </a>
+          <a href="https://instagram.com">
+            <img
+              class="instagram-btn"
+              src="images/instagram-edit-footer.svg"
+              alt="instagram logo button"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="main-footer-links">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-subnav">
+        <a href="lunch_menu.html">Lunch |</a>
+        <a href="dinner_menu.html">Dinner |</a>
+        <a href="dessert_menu.html">Desserts |</a>
+        <a href="kids_menu.html">Kids |</a>
+        <a href="drinks_menu.html">Drinks</a>
+      </div>
+    </footer>
+    <div class="bottom-footer">
+      <h3>High quality food, wine & service for the last 50 years</h3>
+      <p>&copy; steak house | all rights reserved</p>
+    </div>
+    <script src="js/drinks.js"></script>
+  </body>
+</html>

@@ -1,0 +1,288 @@
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .navbar {
+    display: none;
+  }
+
+  .main-logo {
+    margin-left: 15vw;
+  }
+
+  .social-media-btns {
+    display: none;
+  }
+
+  .navbar-container {
+    justify-content: center;
+  }
+
+  #hamburger-link {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+
+  #hamburger-link span {
+    font-size: 5rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info-section {
+    flex-direction: column;
+  }
+
+  .contact-info-flex {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+
+  .how-to-reach-us-header {
+    text-align: center;
+  }
+
+  .address {
+    margin-left: 8vw;
+  }
+
+  .phone-number-section {
+    margin-left: 8vw;
+  }
+
+  .email-section {
+    margin-left: 8vw;
+  }
+
+  .phone-icon {
+    margin-right: 7vw;
+  }
+
+  .email-icon {
+    margin-right: 7vw;
+  }
+
+  .phone-and-email {
+    margin-top: 2vh;
+  }
+
+  .hours-header {
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+
+  .hours-header {
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+
+  .day {
+    font-size: 1rem;
+  }
+
+  .hours-text {
+    font-size: 1rem;
+  }
+
+  .hours-section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  /* mobile footer styles */
+
+  .main-footer-links {
+    width: 80vw;
+  }
+
+  #footer-social-btns {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #footer-social-btns .facebook-btn {
+    height: 10vh;
+    width: 10vw;
+  }
+
+  #footer-social-btns .instagram-btn {
+    height: 10vh;
+    width: 10vw;
+  }
+
+  .footer-subnav {
+    width: 80vw;
+    font-size: 0.7rem;
+  }
+
+  .footer-msg {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .bottom-footer h3 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+
+  .social-media-btns {
+    display: none;
+  }
+
+  .navbar-container {
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  #hamburger-link {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    left: 0;
+  }
+
+  #hamburger-link span {
+    font-size: 7rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info-section {
+    flex-direction: column;
+  }
+
+  .contact-info-flex {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+  }
+
+  .how-to-reach-us-header {
+    text-align: center;
+  }
+
+  .address {
+    margin-left: 8vw;
+    font-size: 1.5rem;
+  }
+
+  .phone-number-section {
+    margin-left: 8vw;
+  }
+
+  .email-section {
+    margin-left: 8vw;
+  }
+
+  .phone-icon {
+    margin-right: 8vw;
+  }
+
+  .email-icon {
+    margin-right: 8vw;
+  }
+
+  .phone-and-email {
+    margin-top: 2vh;
+  }
+
+  .contact-links {
+    font-size: 1.5rem;
+  }
+
+  .hours-header {
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+
+  .hours-header {
+    text-align: center;
+    margin-bottom: 3vh;
+  }
+
+  .day {
+    font-size: 1.5rem;
+  }
+
+  .hours-text {
+    font-size: 1.5rem;
+  }
+
+  .hours-section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  /* mobile footer styles */
+
+  .main-footer-links {
+    width: 80vw;
+  }
+
+  #footer-social-btns {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #footer-social-btns .facebook-btn {
+    height: 8vh;
+    width: 8vw;
+  }
+
+  #footer-social-btns .instagram-btn {
+    height: 8vh;
+    width: 8vw;
+  }
+
+  #footer-social-btns {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-subnav {
+    width: 80vw;
+    font-size: 0.7rem;
+  }
+
+  .footer-subnav a {
+    font-size: 1rem;
+  }
+
+  .footer-msg {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .bottom-footer h3 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2500px) {
+  html {
+    font-size: 150%;
+  }
+
+  .subnav .subnav-btn {
+    padding: 0.4rem 0.5rem 1.3rem 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 2501px) and (max-width: 3850px) {
+  html {
+    font-size: 250%;
+  }
+
+  .subnav .subnav-btn {
+    padding: 0.4rem 0.5rem 1.3rem 0.5rem;
+  }
+}

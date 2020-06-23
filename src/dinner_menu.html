@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steak House dinner menu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/dinner.css" />
+    <link rel="stylesheet" href="css/dinner_mobile.css" />
+  </head>
+  <body>
+    <nav id="mobile-navbar" class="mobile-navbar navbar-closed">
+      <a href="#" id="close-btn" onclick="closeNav()">
+        <span class="material-icons">
+          close
+        </span>
+      </a>
+      <div class="mobile-menu-links">
+        <a href="index.html">Home</a>
+        <hr />
+        <div class="mobile-subnav">
+          <button class="mobile-subnav-btn">
+            Menu <i class="fa fa-caret-down"></i>
+          </button>
+          <hr />
+          <div class="mobile-subnav-content">
+            <a href="lunch_menu.html">Lunch</a>
+            <hr />
+            <a href="dinner_menu.html">Dinner</a>
+            <hr />
+            <a href="dessert_menu.html">Desserts</a>
+            <hr />
+            <a href="kids_menu.html">Kids</a>
+            <hr />
+            <a href="drinks_menu.html">Drinks</a>
+          </div>
+        </div>
+        <a href="about_us.html">About Us</a>
+        <hr />
+        <a href="contact.html">Contact</a>
+        <hr />
+      </div>
+    </nav>
+    <div class="nav-bg-container">
+      <div class="navbar-container">
+        <a href="#" onclick="openNav()" id="hamburger-link">
+          <span class="material-icons hamburger-menu">
+            menu
+          </span>
+        </a>
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <div class="subnav">
+            <button class="subnav-btn">
+              Menu <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content">
+              <a href="lunch_menu.html">Lunch</a>
+              <a href="dinner_menu.html">Dinner</a>
+              <a href="dessert_menu.html">Desserts</a>
+              <a href="kids_menu.html">Kids</a>
+              <a href="drinks_menu.html">Drinks</a>
+            </div>
+          </div>
+          <a href="about_us.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="main-logo" href="index.html"
+          >Steak<br />
+          House</a
+        >
+        <div class="social-media-btns">
+          <a href="https://facebook.com">
+            <img
+              class="facebook-btn"
+              src="images/facebook-edit.svg"
+              alt="facebook logo button"
+            />
+          </a>
+          <a href="https://instagram.com">
+            <img
+              class="instagram-btn"
+              src="images/instagram-edit.svg"
+              alt="instagram logo button"
+            />
+          </a>
+        </div>
+      </div>
+      <h1 class="top-menu-header">Menu</h1>
+    </div>
+    <div class="menu-container">
+      <div class="menu">
+        <div class="menu-heading-group">
+          <h2 class="menu-header">Dinner Menu</h2>
+          <p class="lunch-note">Served from 3:30 PM through 9:00 PM daily</p>
+        </div>
+        <h2 class="menu-category">Appetizer</h2>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">French Onion Soup</h3>
+            <p class="price">$8.75</p>
+          </div>
+          <p class="item-description">Homemade French Soup</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Shrimp Bisque</h3>
+            <p class="price">$8.75</p>
+          </div>
+          <p class="item-description">creamy Shrimp Bisque</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Shrimp Cocktail</h3>
+            <p class="price">$6.99</p>
+          </div>
+          <p class="item-description">
+            classic shrimp cocktail with six jumbo shrimp
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Half Shell Oysters</h3>
+            <p class="price">$11.99</p>
+          </div>
+          <p class="item-description">fresh caught oysters on the half shell</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Loaded Fries</h3>
+            <p class="price">$6.99</p>
+          </div>
+          <p class="item-description">
+            fries topped with bacon and provolone cheese
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Cheeseburger sliders</h3>
+            <p class="price">$7.99</p>
+          </div>
+          <p class="item-description">mini Cheeseburgers on a hawaiian roll</p>
+        </div>
+
+        <h2 class="menu-category">Salads</h2>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">House Salad</h3>
+            <p class="price">$6.50</p>
+          </div>
+          <p class="item-description">
+            garden salad with your choice of dressing
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Caesar Salad</h3>
+            <p class="price">$6.50</p>
+          </div>
+          <p class="item-description">
+            Caesar salad with romaine lettuce parmesean cheese & croutons
+          </p>
+        </div>
+
+        <h2 class="menu-category">Entrees</h2>
+        <h2 class="entree-group">Steaks</h2>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Filet mignon</h3>
+            <p class="price">$27.99</p>
+          </div>
+          <p class="item-description">6 oz center cut Filet mignon</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">New York Strip</h3>
+            <p class="price">$22.99</p>
+          </div>
+          <p class="item-description">8 oz of our new York Strip</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Porterhouse</h3>
+            <p class="price">$29.99</p>
+          </div>
+          <p class="item-description">12 oz porterhouse</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Prime Rib</h3>
+            <p class="price">$29.99</p>
+          </div>
+          <p class="item-description">10 oz cut of prime rib with au jus</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Ribeye</h3>
+            <p class="price">$25.99</p>
+          </div>
+          <p class="item-description">8 oz Ribeye</p>
+        </div>
+        <h2 class="entree-group">Seafood</h2>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Seafood Trio</h3>
+            <p class="price">$21.99</p>
+          </div>
+          <p class="item-description">
+            a combination pollock, jumbo shrimp, and scallops broiled or fried
+          </p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Crab Cake</h3>
+            <p class="price">$20.99</p>
+          </div>
+          <p class="item-description">Homemade crab cakes</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Grilled Salmon</h3>
+            <p class="price">$21.99</p>
+          </div>
+          <p class="item-description">8 oz grilled fresh caught salmon</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Lobster Tail</h3>
+            <p class="price">$29.99</p>
+          </div>
+          <p class="item-description">One fresh caught lobster tail</p>
+        </div>
+
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Grilled ahi Tuna</h3>
+            <p class="price">$20.99</p>
+          </div>
+          <p class="item-description">8 oz cut of Tuna</p>
+        </div>
+
+        <h2 class="menu-category">Sides</h2>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">broccoli</h3>
+            <p class="price">$3.99</p>
+          </div>
+          <p class="item-description">Steamed broccoli</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Rice Pilaf</h3>
+            <p class="price">$3.99</p>
+          </div>
+          <p class="item-description">wild rice pilaf</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Baked Potato</h3>
+            <p class="price">$3.79</p>
+          </div>
+          <p class="item-description">Baked idaho potato</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Sweet Potato</h3>
+            <p class="price">$3.79</p>
+          </div>
+          <p class="item-description">baked Sweet potato</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Asparagus</h3>
+            <p class="price">$3.99</p>
+          </div>
+          <p class="item-description">Steamed Asparagus</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">French Fries</h3>
+            <p class="price">$3.50</p>
+          </div>
+          <p class="item-description">Steak cut french fries</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Mashed Potatoes</h3>
+            <p class="price">$3.79</p>
+          </div>
+          <p class="item-description">mashed potatoes</p>
+        </div>
+        <div class="menu-item">
+          <div class="item-and-price">
+            <h3 class="menu-item-name">Onion Rings</h3>
+            <p class="price">$4.25</p>
+          </div>
+          <p class="item-description">crispy hand breaded onion rings</p>
+        </div>
+      </div>
+      <nav class="side-nav-menu">
+        <h2 class="side-menu-heading">Menu</h2>
+        <ul>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="lunch_menu.html">Lunch</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="dinner_menu.html">Dinner</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="dessert_menu.html">Desserts</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="kids_menu.html">Kids</a>
+          </li>
+          <li class="sidenav-link">
+            <a class="sidenav-anchor" href="drinks_menu.html">Drinks</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <footer id="footer">
+      <div class="follow-us">
+        <div id="footer-social-btns">
+          <a href="https://facebook.com">
+            <img
+              class="facebook-btn"
+              src="images/facebook-edit-footer.svg"
+              alt="facebook logo button"
+            />
+          </a>
+          <a href="https://instagram.com">
+            <img
+              class="instagram-btn"
+              src="images/instagram-edit-footer.svg"
+              alt="instagram logo button"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="main-footer-links">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-subnav">
+        <a href="lunch_menu.html">Lunch |</a>
+        <a href="dinner_menu.html">Dinner |</a>
+        <a href="dessert_menu.html">Desserts |</a>
+        <a href="kids_menu.html">Kids |</a>
+        <a href="drinks_menu.html">Drinks</a>
+      </div>
+    </footer>
+    <div class="bottom-footer">
+      <h3>High quality food, wine & service for the last 50 years</h3>
+      <p>&copy; steak house | all rights reserved</p>
+    </div>
+    <script src="js/dinner.js"></script>
+  </body>
+</html>

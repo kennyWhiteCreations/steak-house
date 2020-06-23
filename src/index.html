@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A classic steakhouse offering a variety of steaks, chops and seafood"
+    />
+    <meta
+      name="keywords"
+      content="steak, seafood, chicken, salad, soup, prime rib, wine"
+    />
+    <title>Steakhouse, burgers, and seafood</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/home_mobile.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="mobile-navbar" class="mobile-navbar navbar-closed">
+      <a href="#" id="close-btn" onclick="closeNav()">
+        <span class="material-icons">
+          close
+        </span>
+      </a>
+      <div class="mobile-menu-links">
+        <a href="index.html">Home</a>
+        <hr />
+        <div class="mobile-subnav">
+          <button class="mobile-subnav-btn">
+            Menu <i class="fa fa-caret-down"></i>
+          </button>
+          <hr />
+          <div class="mobile-subnav-content">
+            <a href="lunch_menu.html">Lunch</a>
+            <hr />
+            <a href="dinner_menu.html">Dinner</a>
+            <hr />
+            <a href="dessert_menu.html">Desserts</a>
+            <hr />
+            <a href="kids_menu.html">Kids</a>
+            <hr />
+            <a href="drinks_menu.html">Drinks</a>
+          </div>
+        </div>
+        <a href="about_us.html">About Us</a>
+        <hr />
+        <a href="contact.html">Contact</a>
+        <hr />
+      </div>
+    </nav>
+    <div class="background-img-section">
+      <div class="navbar-container">
+        <a href="#" onclick="openNav()" id="hamburger-link">
+          <span class="material-icons hamburger-menu">
+            menu
+          </span>
+        </a>
+
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <div class="subnav">
+            <button class="subnav-btn">
+              Menu <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="subnav-content">
+              <a href="lunch_menu.html">Lunch</a>
+              <a href="dinner_menu.html">Dinner</a>
+              <a href="dessert_menu.html">Desserts</a>
+              <a href="kids_menu.html">Kids</a>
+              <a href="drinks_menu.html">Drinks</a>
+            </div>
+          </div>
+          <a href="about_us.html">About Us</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <a class="main-logo" href="index.html"
+          >Steak<br />
+          House</a
+        >
+        <div class="social-media-btns">
+          <a href="https://facebook.com">
+            <img
+              class="facebook-btn"
+              src="images/facebook-edit.svg"
+              alt="facebook logo button"
+            />
+          </a>
+          <a href="https://instagram.com">
+            <img
+              class="instagram-btn"
+              src="images/instagram-edit.svg"
+              alt="instagram logo button"
+            />
+          </a>
+        </div>
+      </div>
+      <h1 class="main-heading">
+        Legendary steaks & Burgers
+      </h1>
+      <h3 class="sub-heading">
+        All of our beef is 100% certified angus beef.<br />
+        we only use organic grass fed cows.
+      </h3>
+      <form action="lunch_menu.html">
+        <button class="view-menu-btn" type="submit">View Menu</button>
+      </form>
+    </div>
+    <div class="monthly-special-section">
+      <h1 class="monthly-special-heading">June Specials</h1>
+      <p class="monthly-special-msg">served daily during the month of May</p>
+      <form action="lunch_menu.html">
+        <button class="view-full-menu-btn" type="submit">View Full Menu</button>
+      </form>
+      <div class="first-special">
+        <div class="first-special-text">
+          <h2 class="special-names">Grilled Shrimp Skewers</h2>
+          <p class="special-description">
+            Grilled shrimp skewers with homemade sauce
+          </p>
+          <p class="special-price">$19.99</p>
+        </div>
+        <img
+          class="special-images"
+          src="images/shrimp-skewers.jpg"
+          alt="shrimp skewers special"
+        />
+      </div>
+      <div class="second-special">
+        <img
+          class="special-images"
+          src="images/triple-layer-chocolate-cake.jpg"
+          alt="triple layer chocolate cake special"
+        />
+        <div class="second-special-text">
+          <h2 class="special-names">Triple Layer Chocolate Cake</h2>
+          <p class="special-description">
+            A slice of our homemade triple layer chocolate cake with a
+            strawberry on top.
+          </p>
+          <p class="special-price">$7.99</p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="follow-us">
+        <div id="footer-social-btns">
+          <a href="https://facebook.com">
+            <img
+              class="facebook-btn"
+              src="images/facebook-edit-footer.svg"
+              alt="facebook logo button"
+            />
+          </a>
+          <a href="https://instagram.com">
+            <img
+              class="instagram-btn"
+              src="images/instagram-edit-footer.svg"
+              alt="instagram logo button"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="main-footer-links">
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-subnav">
+        <a href="lunch_menu.html">Lunch</a>
+        <a href="dinner_menu.html">| Dinner</a>
+        <a href="dessert_menu.html">| Dessert</a>
+        <a href="kids_menu.html">| Kids</a>
+        <a href="drinks_menu.html">| Drinks</a>
+      </div>
+    </footer>
+    <div class="bottom-footer">
+      <h3 class="footer-msg">
+        High quality food, wine & service for the last 50 years
+      </h3>
+      <p>&copy; steak house | all rights reserved</p>
+    </div>
+    <script src="js/home.js"></script>
+  </body>
+</html>

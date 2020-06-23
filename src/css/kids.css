@@ -1,0 +1,352 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 80vw;
+}
+
+.nav-bg-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/cut-steak-slice_06.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+/* mobile navbar */
+
+#hamburger-link {
+  display: none;
+}
+
+.navbar-open {
+  width: 100vw;
+  opacity: 1;
+  height: 55vh;
+  visibility: visible;
+  background-color: #111;
+}
+
+.navbar-closed {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  font-family: "Libre Baskerville", serif;
+}
+
+.mobile-navbar {
+  display: none;
+  flex-direction: column;
+  background-color: #111;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.mobile-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+}
+
+#hamburger-link span {
+  font-size: 7rem;
+  color: #fff;
+}
+
+#close-btn {
+  position: absolute;
+  right: 0;
+}
+
+.mobile-subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.mobile-menu-links {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  align-items: flex-start;
+  margin-left: 10vw;
+  padding-top: 4vh;
+}
+
+.mobile-menu-links a {
+  margin-right: 35vw;
+}
+
+.mobile-subnav-btn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  font-family: "Libre Baskerville", serif;
+}
+
+.mobile-subnav-content {
+  display: none;
+  text-align: left;
+  padding-left: 5vw;
+}
+
+.mobile-subnav-content hr {
+  width: 75vw;
+}
+
+.mobile-subnav:hover .mobile-subnav-content {
+  display: block;
+}
+
+.mobile-subnav-content a {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar {
+  overflow: hidden;
+  padding-top: 3vh;
+  padding-left: 2vw;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+  float: left;
+  padding: 14px 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnav-btn {
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.7rem 0.5rem 1.3rem 0.5rem;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #99752c;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #111;
+  color: #99752c;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.main-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: "Niconne", cursive;
+  padding-top: 3vh;
+  line-height: 3rem;
+}
+
+.facebook-btn {
+  width: 6vw;
+  height: 6vh;
+}
+
+.instagram-btn {
+  width: 6vw;
+  height: 6vh;
+}
+
+.social-media-btns {
+  padding-top: 3vh;
+  padding-right: 2vw;
+}
+
+.top-menu-header {
+  text-align: center;
+  color: #fff;
+  margin-top: 6vh;
+  font-size: 4rem;
+}
+
+.top-menu-header,
+.menu-header,
+.side-menu-heading,
+.menu-category {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lunch-note,
+.menu-item-name,
+.item-description,
+.price,
+.sidenav-anchor {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* page body */
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10vh;
+}
+
+.menu {
+  margin-left: 15vw;
+  margin-top: 15vh;
+}
+
+.menu-header {
+  font-size: 3rem;
+  color: #751b05;
+}
+
+.menu-heading-group {
+  margin-bottom: 15vh;
+}
+
+.menu-category {
+  margin-bottom: 10vh;
+  font-size: 2.8rem;
+  color: #99752c;
+  margin-top: 10vh;
+  text-decoration: underline;
+}
+
+.item-and-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4vh;
+  margin-top: 8vh;
+}
+
+.menu-item-name {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.item-description {
+  font-size: 0.9rem;
+}
+
+.price {
+  font-size: 1.1rem;
+}
+
+.side-nav-menu {
+  margin-left: 10vw;
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  border-left-style: solid;
+  border-left-width: 2px;
+  padding-left: 3vw;
+}
+
+.side-menu-heading {
+  color: #751b05;
+  font-size: 3rem;
+  padding-bottom: 10vh;
+}
+.sidenav-link {
+  font-size: 1.3rem;
+  line-height: 3rem;
+  list-style-type: none;
+}
+
+.sidenav-anchor {
+  text-decoration: none;
+  color: #222;
+  font-size: 1.5rem;
+}
+
+.sidenav-anchor:hover {
+  color: #99752c;
+}
+
+/* footer */
+#footer {
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4vh;
+  padding-bottom: 8vh;
+  line-height: 3rem;
+}
+
+.main-footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 25vw;
+}
+
+.main-footer-links a {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+}
+
+.footer-subnav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Libre Baskerville", serif;
+}
+
+.footer-subnav {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+}
+
+.footer-phone-number:hover {
+  color: #99752c;
+}
+
+.bottom-footer {
+  background-color: #99752c;
+  text-align: center;
+  color: #fff;
+  line-height: 5vh;
+}
